@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webtoon Library</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="app">
+       
+        <nav class="nav">
+            <button onclick="renderPage('home')">Home</button>
+            <button onclick="renderPage('favorites')">Favorites</button>
+            <button id="auth-button" onclick="toggleAuth()">Login</button>
+        </nav>
+       
+        <div class="content"></div>
+    </div>
+    <script src="app.js"></script> 
+</body>
+</html>
